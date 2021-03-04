@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Ahora se esta instalando Defkey... No tomara mucho"
+sleep 2s
+pip install wpspin
+sleep 2s
+pip install colorama
+echo "Defkey ha sido instalado"
+echo "Ahora puedes correr el programa con python defkey.py....happy hacking"
