@@ -93,9 +93,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (mov+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
 			#se imprime la salida del condicional.
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 	#Segundo condicional de esta funcion.
 	elif ask==2:
@@ -119,8 +127,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (zte+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			#se imprime la salida del condicional.
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 		elif ask_2==2:
 			mac = str(input("Introduce aqui tu MAC >> "))
@@ -136,9 +153,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (zte+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
 			#se imprime la salida del condicional.
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 	#tercer condicional de la funcion.
 	elif ask==3:
@@ -162,8 +187,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (Hua+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			#se imprime la salida del condicional.
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 		elif ask_3==2:
 			mac = str(input("Introduce aqui tu MAC >> "))
@@ -179,9 +213,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (Hua+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
 			#se imprime la salida del condicional.
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 	#Cuarto condicional para nuestra funcion.
 	elif ask==4:
@@ -205,9 +247,17 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (Dtv+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
 			#se imprime la salida del condicional.
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 		elif ask_4==2:
 			mac = str(input("Introduce aqui tu MAC >> "))
@@ -223,7 +273,16 @@ def switch_1():
 			con_5 = convert[13:15]
 			con_6 = convert[16:18]
 			con_all = (con_1+con_2+con_3+con_4+con_5+con_6)
+			#Hacemos la conversion inversa de la contraseña generada anteriormente.
+			p_1 = convert[4:6]
+			p_2 = convert[0:3]
+			p_3 = convert[10:12]
+			p_4 = convert[7:9]
+			p_5 = convert[16:18]
+			p_6 = convert[13:15]
+			password = (Dtv+p_1+p_2+p_3+p_4+p_5+p_6)
 			print(Fore.GREEN)
-			print("\nTu password por defecto para esta MAC es >> " + con_all)
+			#se imprime la salida del condicional.
+			print("\nTu password por defecto para esta MAC es >> " + con_all + " << O prueba tambien con " + password)
 
 switch_1() #se llama a la funcion en general para que se pueda cumplir todas las condiciones.
