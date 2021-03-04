@@ -1,7 +1,9 @@
 #!/bin/bash
 echo "Ahora se esta instalando Defkey... No tomara mucho"
 sleep 2s
-pip install wpspin
+git clone https://github.com/drygdryg/wpspin.git
+cd wpspin/
+python setup.py install
 sleep 2s
 pip install colorama
 echo "Defkey ha sido instalado"
